@@ -23,6 +23,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 60px;
+}
+
+.header-bottom-row{
+    display: flex;
+    gap: 42px;
 }
 
 .header-logo {
