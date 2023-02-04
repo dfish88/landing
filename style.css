@@ -15,6 +15,16 @@ a {
     font-size: 18px;
 }
 
+button {
+    background-color: #3882f6;
+    padding: 8px 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 18px;
+}
+
 .header {
     background-color: #1f2937;
     padding: 0px 200px 60px 200px;
@@ -46,5 +56,4 @@ a {
 .header-secondary-text{
     color: #e5e7eb;
     font-size: 18px;
-    margin-bottom: 24px;
 }
