@@ -17,7 +17,7 @@ a {
 
 .header {
     background-color: #1f2937;
-    padding: 0px 150px 60px 150px;
+    padding: 0px 200px 60px 200px;
 }
 
 .header-top-row {
@@ -46,4 +46,5 @@ a {
 .header-secondary-text{
     color: #e5e7eb;
     font-size: 18px;
+    margin-bottom: 24px;
 }
