@@ -79,7 +79,7 @@ button {
 }
 
 .section2-card > img{
-    border-style: double;
+    border-style: solid;
     border-color: #3882f6;
     border-radius: 8px;
     margin-bottom: 8px;
