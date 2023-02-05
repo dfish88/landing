@@ -72,4 +72,5 @@ button {
 .section2-card > img{
     border-style: double;
     border-color: #3882f6;
+    border-radius: 8px;
 }
