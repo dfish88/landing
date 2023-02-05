@@ -53,6 +53,12 @@ button {
     font-weight: 900;
 }
 
+.header-right-col > img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 8px;
+}
+
 .header-secondary-text{
     color: #e5e7eb;
     font-size: 18px;
