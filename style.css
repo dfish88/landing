@@ -133,6 +133,7 @@ button {
     padding: 50px 100px;
     border-radius: 8px;
     flex: auto;
+    gap: 50px;
 }
 .section4-button {
     border: #f9faf8;
