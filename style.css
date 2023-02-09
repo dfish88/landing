@@ -92,10 +92,11 @@ button {
     justify-content: center;
     gap: 24px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .section2-card {
-    width: 250px;
+    width: 225px;
 }
 
 .section2-card > img{
