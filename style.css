@@ -25,7 +25,7 @@ button {
     margin-top: 18px;
 }
 
-.header {
+.header{
     background-color: #1f2937;
     padding: 0px 200px 60px 200px;
 }
@@ -42,7 +42,7 @@ button {
     gap: 42px;
 }
 
-.header-logo {
+.header-logo{
     color: #f9faf8;
     font-size: 24px;
 }
@@ -137,5 +137,15 @@ button {
 .section4-title {
     font-size: 36px;
     font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9f9f9;
+    padding: 50px;
+    font-size: 20px;
 }
 
