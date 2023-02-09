@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -27,7 +29,8 @@ button {
 
 .header{
     background-color: #1f2937;
-    padding: 0px 200px 60px 200px;
+    padding: 0px 100px 60px 100px;
+    flex: auto;
 }
 
 .header-top-row {
@@ -39,6 +42,8 @@ button {
 
 .header-bottom-row{
     display: flex;
+    justify-content:space-between;
+    align-items: center;
     gap: 42px;
 }
 
@@ -57,22 +62,20 @@ button {
     flex: auto;
 }
 
-.header-right-col {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 100%;
-}
 
 .header-right-col > img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 500xpx;
+    max-height: 300px;
     border-radius: 8px;
 }
 
 .header-secondary-text{
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.section2 {
+    flex: auto;
 }
 
 .section2-title {
@@ -111,6 +114,7 @@ button {
     text-align: center;
     margin-top: 48px;
     padding: 50px 15%;
+    flex: auto;
 }
 
 .section3-attribution {
@@ -125,9 +129,10 @@ button {
     justify-content: space-between;
     align-items: center;
     background-color: #3882f6;
-    margin: 50px 100px;
+    margin: 100px 200px;
     padding: 50px 100px;
     border-radius: 8px;
+    flex: auto;
 }
 .section4-button {
     border: #f9faf8;
